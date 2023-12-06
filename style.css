@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+body{margin: 0; font-family: 'Hanken Grotesk',sans-serif;}
+section.sec1{background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%)
+    ); margin: 0; text-align: center; padding-top: 1em; padding-bottom: 1em;
+border-bottom-left-radius: 2.5em; border-bottom-right-radius: 2.5em;}
+   section.sec1 p.light{color: hsl(221, 32%, 90%)}
+   section.sec1 h2{color: white; font-size: 5.0em;
+margin-bottom: 0.001rem;}
+   div.score{background:linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0)); border-radius: 100.0em;
+    width: 60%; border-radius: 50%; shape-outside: circle();
+margin-right: auto; margin-left: auto; padding: 0.5em; max-width: 300px; min-width:280px;
+}
+p.subtext{width:50%; margin-left: auto; margin-right: auto;}
+div.score p{color:hsl(221, 32%, 90%); font-size: 2.0em;}
+div.score{transform: scale(0.75);}
+p.white{color: white; font-size: 1.5em;}
+.sec2{padding-left: 1em; padding-right: 1em; color:hsl(224, 30%, 27%) ;}
+h2.sec2{font-weight: 800; font-size: 0.75em;}
+div.red{background-color:hsla(0, 100%, 67%,0.1); 
+padding: 1.0em; border-radius: 0.5em;}
+article.left{display: inline-block; text-align: left; display: inline-block; width: 75%;} 
+article.right{display: inline-block; text-align: right; display: inline-block; width: 25%;}
+div.traits img{vertical-align: middle; margin-right: 0.75rem;}
+div.traits{padding: 1.0em; border-radius: 0.5em; margin-bottom: 1em; transition: transform 150ms;}
+div.traits:hover{transform: scale(1.03);}
+div.yellow{background-color:  hsla(39, 100%, 56%,0.3) ;}
+div.green{background-color: hsla(166, 100%, 37%,0.2);}
+div.blue{background-color: hsla(234, 85%, 45%,0.3); }
+article.red{color:#f55}
+article.orange{color:#FFB21E}
+article.green{color:#00BB8F ;}
+article.blue{color:#1125D6;}
+.black{color: black; font-weight: 700;}
+.gray{color: gray; font-weight: 700;}
+a{text-decoration: none; color: white; background-color: rgb(24, 24, 53);
+display: block; width: 80%; text-align: center; margin-right: auto; margin-left: auto;
+margin-bottom: 2em; padding: 4em auto; padding-top: 1.5em; padding-bottom: 1.5em; border-radius: 2em;
+transition: transform 0.5s ease scale 0.5s ease ;}
+a:hover{transform: scale(1.03);}
+a:active{scale: 0.96; background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));}
+@media(min-width:780px){body{display: flex; flex-direction: row;}.sec2{width: 50%;} .sec1{width:50%}}
